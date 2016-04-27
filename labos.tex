@@ -146,19 +146,20 @@ Iz tog su razloga ove LED-ice vrlo popularne u dekorativnoj rasvjeti, a moguće 
 
 \subsection{Sklop}
 
-\begin{figure}[htb]
+\begin{minipage}{1.0\textwidth}
 	\centering
 	\includegraphics[width=6cm]{./Sklopovi/WS2812B/WS2812B-module.pdf}
-	\caption{Shema jednog modula}
-	\label{fig:ws2812b-module}
-\end{figure}
 
-\begin{figure}[htb]
+	\label{fig:ws2812b-module}
+\end{minipage}
+\captionof{figure}{Shema jednog modula}
+
+\begin{minipage}{1.0\textwidth}
 	\centering
 	\includegraphics[width=8cm]{./Sklopovi/WS2812B/WS2812B-strip.pdf}
-	\caption{Shema sklopa}
 	\label{fig:ws2812b-strip}
-\end{figure}
+\end{minipage}
+\captionof{figure}{Shema sklopa}
 
 \section{Izrada}
 
@@ -193,19 +194,19 @@ Prekidački izvori napajanja dijele se na \textit{step-up}, \textit{step-down} i
 
 \subsection{Sklop}
 
-\begin{figure}[htb]
+\begin{minipage}{1.0\textwidth}
 	\centering
 	\includegraphics[width=8cm]{./Sklopovi/5V boost/sklop.pdf}
-	\caption{Shema sklopa}
 	\label{fig:5Vboost-sch}
-\end{figure}
+\end{minipage}
+\captionof{figure}{Shema sklopa}
 
-\begin{figure}[htb]
+\begin{minipage}{1.0\textwidth}
 	\centering
 	\includegraphics[width=7cm]{./Sklopovi/5V boost/pinout.pdf}
-	\caption{Priključci naponskog izvora}
 	\label{fig:5Vboost-pinout}
-\end{figure}
+\end{minipage}
+\captionof{figure}{Priključci naponskog izvora}
 
 \section{Izrada}
 Na ulazne i izlazne priključke zaleme se pinovi (\textit{pin headers}) kako bi se cijela pločica mogla utaknuti u \textit{protoboard}. Naravno, potrebno je paziti da ulazni napon spojimo na odgovarajuće priključke. Ulazni napon dobivamo iz baterija koje su smještene u kućište dobiveno na radionici. Žice iz kućišta leme se na gornju stranu sklopa. Kako bi se spriječio nepotreban utrošak energije baterije u praznom hodu (bez trošila na izlazu napajanja) u kućište je ugrađena sklopka koja galvanski odvaja bateriju od \textit{boost} regulatora.
@@ -255,7 +256,7 @@ Predviđene su dvije izvedbe pločice: SMD (engl. \textit{Surface Mount Device})
 
 \subsection{Sklop}
 
-\begin{figure}[htb]
+\begin{minipage}{1.0\textwidth}
 	\centering
 	\begin{subfigure}[b]{8cm}
 		\centering
@@ -275,7 +276,7 @@ Predviđene su dvije izvedbe pločice: SMD (engl. \textit{Surface Mount Device})
 		\caption{Varijanta s \textit{through-hole} komponentama}
 		\label{fig:esp8266-TH}
 	\end{subfigure}
-\end{figure}
+\end{minipage}
 
 \begin{figure}[htb]
 	\centering
